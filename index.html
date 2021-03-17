@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object labTask</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Tag and save your favorites</h1>
+<form>
+<fieldset>
+<legend>Add a new favorite: </legend>
+<p>
+ <label for="url">URL: </label>
+    <input type="text" id="url" size="60"
+    placeholder="https://example.com">
+</p>
+<p>
+    <label for="title">Title: </label>
+    <input type="text" id="title" size="60" placeholder="Enter a title">
+</p>
+<p>
+        <label for="comment">Comment: </label>
+    <input type="text" id="comment" size="60" placeholder="What do you think
+    of this link?">
+</p>
+<p>
+    <label for="tags">Tags: </label>
+    <input type="text" id="tags" size="60" placeholder="Enter tags separated
+    by commas">
+</p>
+<p>
+    <label for="button"></label>
+    <input type="button" id="functButton" value="Add link">
+</p>
+</fieldset>
+</form>
+    <h2>List of favorites</h2>
+    <ul id="favorites"></ul>
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
